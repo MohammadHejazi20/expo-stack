@@ -3,7 +3,6 @@
     "name": "expo-stack",
     "slug": "expo-stack",
     "version": "1.0.0",
-
     "scheme": "expo-stack",
     "web": {
       "bundler": "metro",
@@ -21,23 +20,22 @@
     ],
     "experiments": {
       "typedRoutes": true,
-
       "tsconfigPaths": true
     },
-
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-
     "userInterfaceStyle": "light",
-
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.expo-stack"
     },
     "android": {
       "adaptiveIcon": {
