@@ -6,7 +6,7 @@
       "name": "expo-router",
       "type": "navigation",
       "options": {
-        "type": "stack"
+        "type": "tabs"
       }
     },
     {
@@ -16,6 +16,10 @@
     {
       "name": "zustand",
       "type": "state-management"
+    },
+    {
+      "name": "supabase",
+      "type": "authentication"
     }
   ],
   "flags": {

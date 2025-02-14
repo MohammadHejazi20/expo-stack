@@ -1,17 +1,7 @@
-// /** @type {import('tailwindcss').Config} */
-// module.exports = {
-//   content: ['./app/**/*.{js,ts,tsx}', './components/**/*.{js,ts,tsx}'],
-
-//   presets: [require('nativewind/preset')],
-//   theme: {
-//     extend: {},
-//   },
-//   plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
-// };
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ['class'],
-  content: ['app/**/*.{ts,tsx}', 'components/**/*.{ts,tsx}'],
+  content: ['./app/**/*.{js,ts,tsx}', './components/**/*.{js,ts,tsx}'],
+
   presets: [require('nativewind/preset')],
   theme: {
     extend: {
@@ -57,9 +47,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require('tailwindcss-animate'),
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-  ],
+  plugins: [require('tailwindcss-animate')],
 };
