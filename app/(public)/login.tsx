@@ -22,7 +22,12 @@ export default function Login() {
     <SafeAreaView className="flex flex-1 flex-col justify-center bg-white px-6">
       <LoginForm
         dom={{
+          nestedScrollEnabled: false,
+          showsHorizontalScrollIndicator: false,
+          showsVerticalScrollIndicator: false,
           scrollEnabled: false,
+          matchContents: true,
+          textZoom: 500,
         }}
         onChangeEmail={(email) => setEmail(email)}
         onChangePassword={(password) => setPassword(password)}

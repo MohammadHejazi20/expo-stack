@@ -22,7 +22,7 @@ function LoginForm({
   onLogin: () => void;
 }) {
   return (
-    <div className={cn('mx-auto flex flex-col gap-6 p-4')}>
+    <div className={cn('mx-auto flex flex-col gap-6 overflow-hidden scroll-smooth p-4')}>
       <Card className="overflow-hidden">
         <CardContent className="grid p-0 md:grid-cols-2">
           <form className="p-6 md:p-8">
@@ -58,7 +58,7 @@ function LoginForm({
                 />
               </div>
               <Button
-                className="w-full"
+                className="w-full transform transition-transform active:scale-95"
                 onClick={(e) => {
                   e.preventDefault();
                   onLogin && onLogin();
