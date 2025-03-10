@@ -21,7 +21,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Expo offers a novel approach to work with modern web code directly in a native app via the 'use dom' directive. This enables incremental migration for an entire website to a universal app by moving on a per-component basis.
+Expo offers a novel approach to work with modern web code directly in a native app via the `useDOM` directive. This enables incremental migration for an entire website to a universal app by moving on a per-component basis.
+
+Here’s a clearer and more polished version of your text:  
+
+This is a proof of concept demonstrating the use of `useDOM` from Expo and WebView in an Expo app to run `DomComponents` on a mobile app using React and React Native.
 
 ### Built With
 
