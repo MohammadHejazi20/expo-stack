@@ -1,5 +1,8 @@
 {
   "name": "expo-stack",
+  "author": {
+    "name": "Mohammad Hejazi"
+  },
   "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {
