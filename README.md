@@ -78,9 +78,9 @@ _Follow these steps to install and run the project locally:_
    pnpm dev
    ```
 
-That’s it! Your project should now be running locally. Navigate to the provided URL to view it in your browser.
+That’s it! The project should now be running locally. Navigate to the provided URL to view it in your browser.
 
-<p align="right">(<a href="#readme-top">zurück zum Anfang</a>)</p>
+<p align="right">(<a href="#readme-top">back to the top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [Tailwind]: https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss
