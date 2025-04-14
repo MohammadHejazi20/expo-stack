@@ -60,8 +60,9 @@ function LoginForm({
                 />
               </div>
               <Button
+                variant="default"
                 type="submit"
-                className="w-full transform transition-transform active:scale-95"
+                // className="w-full transform transition-transform active:scale-95"
                 onClick={(e) => {
                   e.preventDefault();
                   onLogin && onLogin();
@@ -69,8 +70,8 @@ function LoginForm({
                 Login
               </Button>
               <Button
-                variant="outline"
-                className="w-full transform transition-transform active:scale-95"
+                variant="neutral"
+                // className="w-full transform transition-transform active:scale-95"
                 onClick={(e) => {
                   e.preventDefault();
                   onLogin && onLogin();

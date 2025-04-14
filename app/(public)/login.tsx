@@ -34,7 +34,7 @@ export default function Login() {
         email={email}
         password={password}
         onLogin={() => {
-          // handleLogin();
+          handleLogin();
           Alert.alert('Login', 'Login button pressed, but not implemented yet');
         }}
       />
