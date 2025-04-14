@@ -35,7 +35,6 @@ export default function Login() {
         password={password}
         onLogin={() => {
           handleLogin();
-          Alert.alert('Login', 'Login button pressed, but not implemented yet');
         }}
       />
     </SafeAreaView>
